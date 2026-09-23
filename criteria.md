@@ -26,6 +26,8 @@ contains the answer.
 <!-- e.g. "One of my questions is about a topic only two documents mention, so
      I expect that one to be hard." -->
 
+I picked 4 of 5 because my questions vary in specificity. Some like the Elder Ness swimming question hit one clear paragraph, but others like the Brightwater pricing question require pulling a fact buried in a longer comparative paragraph, so I expect at least one to be harder to retrieve cleanly.
+
 ---
 
 ## 2. Every answer names a source
@@ -35,6 +37,8 @@ Every answer the system produces names at least one source document.
 **Why this target:**
 <!-- Why all five and not four? What about your setup makes that achievable —
      or what would have to go wrong for it not to be? -->
+
+an answer with no source is unverifiable and just as bad as a wrong one
 
 ---
 
@@ -53,6 +57,7 @@ in at least 4 of 5 tries.
 <!-- What did your distances look like when you set the cutoff in Milestone 4?
      Was there a clean gap, or did the two groups overlap? -->
 
+
 ---
 
 ## 4. Something about your chunks
@@ -69,11 +74,11 @@ in at least 4 of 5 tries.
        - "No chunk is shorter than 200 characters, since anything below that
           in my corpus turned out to be a heading with no content under it." -->
 
-
+No chunk under 50 characters
 
 **Why this target:**
 
-
+ I saw a chunk as short as 24 characters when I indexed my corpus, and read it. It was a fragment, not a usable thought. 50 is where I'd expect a chunk to at least contain a full short sentence.
 
 ---
 
@@ -87,11 +92,11 @@ in at least 4 of 5 tries.
      present — anything, as long as it names a number or an observable
      outcome. -->
 
-
+every answer comes back in under 5 seconds
 
 **Why this target:**
 
-
+I picked 5 seconds because that's about as long as I'd wait before assuming something's broken, and this system only makes one model call per question, so there's no reason it should be slow.
 
 ---
 
