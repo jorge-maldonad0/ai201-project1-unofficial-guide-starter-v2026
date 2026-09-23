@@ -57,6 +57,7 @@ in at least 4 of 5 tries.
 <!-- What did your distances look like when you set the cutoff in Milestone 4?
      Was there a clean gap, or did the two groups overlap? -->
 
+My in-corpus questions had best distances between 0.262 and 0.540, and my out-of-scope questions had best distances between 0.754 and 0.899 — a clean gap with nothing in between. I kept the default cutoff of 0.6 since it sits comfortably in that gap.
 
 ---
 
